@@ -1,0 +1,128 @@
+body{
+    margin: 0px 5px 0px 5px;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background: url("https://s1.ticketm.net/dam/a/b7b/389b772c-1052-48f0-abc3-0655748bcb7b_1284441_TABLET_LANDSCAPE_3_2.jpg")   ;
+    background-size: 1537px 874px;
+    background-position: -1px 196px;
+    background-repeat: no-repeat;background-color: lavenderblush;
+}
+@media screen and (min-device-width: 1400px){
+
+    div{width: 1200px; }
+    body { font-size: 2em; background-size:  1090px 587px}
+    section{width: 60%; flex-wrap: wrap;word-wrap: break-word;}    .sorted{overflow-wrap: break-word;}
+    input{ width: 9%;
+        border-radius: 7px;
+        font-size: 15px;}
+    .range{width: 200px}
+    .btn2{
+        width: 4%;
+        font-size: 10px;}
+    .btn{
+        width: 4%;
+        font-size: 10px;}
+}
+@media screen and (device-width: 1280px) {
+
+    div{width: 1100px;}
+    body { font-size: 2em; background-size:  890px 487px;}
+    section{width: 45%; flex-wrap: wrap;word-wrap: break-word;}   .sorted{overflow-wrap: break-word;}
+    input{ width: 5%;
+        border-radius: 5px;
+        font-size: 10px;} .range{width: 70px}
+    .btn2{
+        width: 3%;
+        font-size: 8px;}
+    .btn{
+        width: 3%;
+        font-size: 8px;}
+}
+@media screen and (device-width: 1024px){
+
+    div{width: 980px;}
+    body { font-size: 2em; background-size:  590px 287px;}
+    section{width: 17%; flex-wrap: wrap; word-wrap: break-word;} .sorted{overflow-wrap: break-word;  word-wrap: break-word; width: 5%}
+    input{ width: 3%;
+        border-radius: 4px;
+        font-size: 6px;} .range{width: 30px}
+    .btn2{
+        width: 2%;
+        font-size: 5px;}
+    .btn{
+        width: 2%;
+        font-size: 5px;}
+}
+
+
+@media handheld and (grid) and (max-width: 15em) {
+    body { font-size: 2em; flex-wrap: wrap}
+    section{word-wrap: break-word;}
+    .sorted{overflow-wrap: break-word;}
+
+}
+
+
+.op3
+{
+    opacity:0.3;
+    filter:alpha(opacity=70);
+    display: inline-block;
+    margin-left: 3%;
+}
+#content{
+    place-content: center;
+    background-size: 100%;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+div.item {
+    vertical-align: text-bottom;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+}
+p {
+    font-family: Segoe UI;
+    font-size: 20pt;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+form{
+    padding-bottom: 10px ;
+    margin: 30px 0px 30px 0px;
+    line-height: 18px;
+    font-family: Segoe UI;
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    vertical-align: middle;
+
+}
+
+.btn2{ background-color: thistle; align-items: center;
+    color: mintcream;
+    padding: 5px;
+    margin: 3px 0;
+    border: none;
+    width: 35%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: 0 3px  4px 0 brown;
+    margin-left: 35%;
+}
+.btn2:hover{ background-color: mediumvioletred}
+
+#mc{
+    margin-left: 27.9%;
+}
