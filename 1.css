@@ -129,17 +129,16 @@ form{
         text-shadow: 1px 3px 3px #eeffcd;
 }
 #wrap1 {
-    background-color: #fda5ffde;
+    background-color: #fac7ff;
     color: #a987f7;
     width: 200px;
-    text-shadow: 2px 2px 2px #e095ef, 2px 2px 15px #7cfbe2;
-    transition: color 4s, width 4s, background-color 4s, text-shadow 4s;
+    transition: color 4s, width 4s, background-color 4s;
 }
 #wrap1:hover {
     color: #98087f;
     width: 400px;
     background-color: #f8ffebab;
-    text-shadow: 2px 2px 2px #efe895, 2px 2px 15px #eeffcd;
+   
 }
 
 
