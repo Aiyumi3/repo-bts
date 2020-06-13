@@ -1,10 +1,10 @@
 body{
     margin: 0px 5px 0px 5px;
-    background-size: cover;
+    background-size: 150%;
     background-blend-mode: overlay;
     background: url("https://s1.ticketm.net/dam/a/b7b/389b772c-1052-48f0-abc3-0655748bcb7b_1284441_TABLET_LANDSCAPE_3_2.jpg")   ;
     background-size: 1537px 874px;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;background-color: lavenderblush;
 }
