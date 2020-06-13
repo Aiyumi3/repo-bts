@@ -95,6 +95,7 @@ p {
     letter-spacing: 0.45px;
     vertical-align: middle;
     text-align: center;
+    text-shadow: 1px 3px 3px #f34c8a, 5px 5px 9px #eeffcd;
 }
 
 form{
@@ -125,4 +126,5 @@ form{
 
 #mc{
     margin-left: 27.9%;
+        text-shadow: 1px 3px 3px #eeffcd;
 }
